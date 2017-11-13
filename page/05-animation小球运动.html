@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#div1{
+				width: 100px;
+				height: 100px;
+				background: pink;
+				border-radius: 50%;
+				position: absolute;
+				top:0;
+				left:0;
+				animation: donghua 5s infinite;
+			}
+			@keyframes donghua{
+				from{
+					top:0;
+					left: 0;
+				}
+				25%{
+					left:500px;
+					top:0;
+					background: plum;
+				}
+				50%{
+					left: 500px;
+					top:500px;
+					background: hotpink;
+				}
+				75%{
+					left: 0;
+					top:500px;
+					background: paleturquoise;
+				}
+				to{
+					top:0;
+					left:0;
+					background: palevioletred;
+				}
+				
+			}
+		</style>
+	</head>
+	<body>
+		<div id="div1"></div>
+	</body>
+</html>
